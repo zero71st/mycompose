@@ -1,5 +1,6 @@
 version: '1.0'
-step_name:
-  type: launch-composition
-  working_directory: .
-  composition: './docker-compose.yaml'
+steps:
+  test-codefresh:
+    type: launch-composition
+    working_directory: .
+    composition: './docker-compose.yaml'
