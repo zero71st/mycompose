@@ -3,4 +3,4 @@ steps:
   test_codefresh:
     type: launch-composition
     working_directory: .
-    composition: './docker-compose.yaml'
+    composition: './docker-compose.yml'
