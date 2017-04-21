@@ -1,10 +1,5 @@
+version: '1.0'
 step_name:
   type: launch-composition
   working_directory: .
   composition: './docker-compose.yaml'
-  on_success:
-    ...
-  on_fail:
-    ...
-  on_finish:
-    ...
